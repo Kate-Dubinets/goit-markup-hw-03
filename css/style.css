@@ -35,6 +35,7 @@ button {
 
 /* #region header */
 
+
 .header-page .header-conteiner{
     display: flex;
     justify-content: space-between;
@@ -47,11 +48,13 @@ button {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-list{
     display: flex;
     gap: 40px;
+    margin-right: 76px;
 }
 
 .nav-page{
@@ -79,6 +82,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logo-studio {
@@ -110,8 +114,9 @@ button {
     gap: 40px;
 }
 
-
-
+.nav-item{
+    padding: 24px 0;
+}
 /* #endregion header */
 
 
