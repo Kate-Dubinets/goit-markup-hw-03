@@ -29,11 +29,18 @@ button {
     cursor: pointer;
 }
 
+img{
+    display: block;
+}
+
 .section {
     margin-bottom: 120px;
 }
 
 /* #region header */
+.header-page{
+ border-bottom: 1px solid #e7e9fc
+}
 
 
 .header-page .header-conteiner{
@@ -49,18 +56,23 @@ button {
     margin-left: auto;
     margin-right: auto;
     border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
 }
 
+.div-nav{
+    width: 1158px;
+    padding: 0 15px;
+}
 .nav-list{
     display: flex;
     gap: 40px;
     margin-right: 76px;
-    padding: 24px 0
 }
 
 .nav-page{
     display: flex;
     align-items: center;
+    padding: 24px 0 
 
 }
 .nav-item-link {
@@ -246,6 +258,10 @@ width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
+.sec-list:first-child{
+    width: calc((100% - 72px) / 4);
+}
+
 .section-three {
     background: #f4f4fd;
     padding: 120px 0;
@@ -324,9 +340,11 @@ width: calc((100% - 72px) / 4);
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    width: calc((100% - 48px) / 3);
 }
 
+.list-four:first-child{
+    width: calc((100% - 48px) / 3); 
+}
 .div-list-four{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -354,10 +372,12 @@ padding-bottom: 120px;
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
-   
-
+padding: 100px 0;
 }
-
+.logo-footer{
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer-text {
     font-weight: 400;
     font-size: 16px;
@@ -365,6 +385,7 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     padding-top: 8px;
+    max-width: 264px
 }
 
 footer .logo-studio {
