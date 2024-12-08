@@ -178,13 +178,25 @@ button {
 
 /* #region section 2 */
 
+.feat{
+    visibility: hidden;
+}
+
+.section-two{
+    padding: 120px 0;
+}
 .list-two{
-    height: 100px;
     display: flex;
     gap: 24px;;
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
+    height: 100px;
+}
+
+.list-feature{
+    width: calc((100% - 72px) / 4);
+    
 }
 .sec-two-logo {
     font-weight: 500;
