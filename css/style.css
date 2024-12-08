@@ -55,11 +55,13 @@ button {
     display: flex;
     gap: 40px;
     margin-right: 76px;
+    padding: 24px 0
 }
 
 .nav-page{
     display: flex;
     align-items: center;
+
 }
 .nav-item-link {
     font-family: "Roboto", sans-serif;
@@ -114,9 +116,7 @@ button {
     gap: 40px;
 }
 
-.nav-item{
-    padding: 24px 0;
-}
+
 /* #endregion header */
 
 
@@ -132,6 +132,7 @@ button {
 
 .section-one{
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .effect-sol {
@@ -146,6 +147,7 @@ button {
     padding-bottom: 43px;
     padding-left: 472px;
     padding-right: 472px;
+    max-width: 496px;
 }
 
 .button {
@@ -162,6 +164,9 @@ button {
     margin-bottom: 185px;
     margin-left: 635px;
     margin-right: 636px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
 }
 
 .button:hover,
