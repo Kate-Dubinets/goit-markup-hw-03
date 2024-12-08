@@ -50,19 +50,14 @@ img{
 
 .header-conteiner{
     display: flex;
-    width: 1470px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
-}
-
-.div-nav{
-    width: 1158px;
     padding: 0 15px;
 }
+
+
 .nav-list{
     display: flex;
     gap: 40px;
