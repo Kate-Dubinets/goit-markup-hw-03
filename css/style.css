@@ -169,8 +169,6 @@ img{
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
-    width: 169px;
-    padding: 16px 32px;
     border: none;
     border-radius: 4px;
     margin-bottom: 185px;
@@ -178,6 +176,7 @@ img{
     margin-right: 636px;
     display: block;
     min-width: 169px;
+    height: 56px;
 }
 
 .button:hover,
@@ -198,7 +197,7 @@ img{
 }
 
 .list-feature{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4)
 }
 .list-two{
     display: flex;
