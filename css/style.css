@@ -201,7 +201,6 @@ img{
 
 .section-two{
     padding: 120px 0;
-    padding-left: 0;
 }
 
 .list-feature{
@@ -213,8 +212,10 @@ img{
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
+    padding-left: 0%;
     height: 100px;
     flex-basis: calc((100% - 72px) / 4)
+    
 }
 
 
@@ -274,6 +275,7 @@ img{
     gap: 24px;
     justify-content: space-around;
     padding-bottom: 120px;
+    padding-left: 0;
 }
 
 .text-list-three{
@@ -314,6 +316,7 @@ img{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding-left: 0;
 }
 .our-portfolio {
     font-family: "Roboto", sans-serif;
