@@ -37,6 +37,14 @@ img{
     margin-bottom: 120px;
 }
 
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* #region header */
 .header-page{
  border-bottom: 1px solid #e7e9fc
@@ -134,14 +142,6 @@ img{
 
 /* #region section 1 */
 
-.container{
-    width: 1470px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .section-one{
     background-color: #2e2f42;
     padding: 188px 0;
@@ -155,10 +155,8 @@ img{
     font-size: 56px;
     letter-spacing: 0.02em;
     color: #fff;
-    padding-top: 191px;
-    padding-bottom: 43px;
-    padding-left: 472px;
-    padding-right: 472px;
+    margin-left: auto;
+    margin-right:  auto;
     max-width: 496px;
 }
 
@@ -172,8 +170,8 @@ img{
     border: none;
     border-radius: 4px;
     margin-bottom: 185px;
-    margin-left: 635px;
-    margin-right: 636px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -188,12 +186,22 @@ img{
 
 /* #region section 2 */
 
-.feat{
-    visibility: hidden;
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .section-two{
     padding: 120px 0;
+    padding-left: 0;
 }
 
 .list-feature{
@@ -206,6 +214,7 @@ img{
     justify-content: space-between;
     align-items: stretch;
     height: 100px;
+    flex-basis: calc((100% - 72px) / 4)
 }
 
 
